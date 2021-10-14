@@ -1,20 +1,21 @@
-a[href="#main"] {
+a {
     position: absolute;
     top: 0;
     right: 100%; /* moves off screen */
 }
 
-a[href="#main"]:focus {
+a:focus {
     right: auto;
     outline: none;
+    color: black;
     font-size: 1.2rem;
     border: 1px rgb(83, 83, 243) solid;
     padding: 16px;
+    background-color: white;
 }
 
-a:link{
-    color: black;
-}
+
+
 a:hover{
     color: gray;
 }
